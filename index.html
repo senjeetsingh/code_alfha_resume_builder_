@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Builder</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Resume Builder</h1>
+
+  <form id="resumeForm">
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" required>
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" required>
+    <br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" required>
+    <br>
+
+    <label for="summary">Summary:</label>
+    <textarea id="summary" rows="4" required></textarea>
+    <br>
+
+    <h2>Education</h2>
+
+    <label for="eduTitle">Title:</label>
+    <input type="text" id="eduTitle" required>
+    <br>
+
+    <label for="eduSchool">School/University:</label>
+    <input type="text" id="eduSchool" required>
+    <br>
+
+    <label for="eduYear">Year:</label>
+    <input type="text" id="eduYear" required>
+    <br>
+
+    <h2>Experience</h2>
+
+    <label for="expTitle">Title:</label>
+    <input type="text" id="expTitle" required>
+    <br>
+
+    <label for="expCompany">Company:</label>
+    <input type="text" id="expCompany" required>
+    <br>
+
+    <label for="expYear">Year:</label>
+    <input type="text" id="expYear" required>
+    <br>
+
+    <input type="submit" value="Generate Resume">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
